@@ -1,0 +1,29 @@
+{% load static %}
+
+<div id="navbar-container">
+    <div id="navbar-image">
+        <a href="">
+            <img id="logo-image" src="{% static 'images/logo1Copy2-removebg-preview.png' %}">
+        </a>
+    </div>
+
+    <div id="search-form">
+        <form class = "search-bar-form" method="GET" action ="{% url 'home' %}">
+            <input class = "search-bar-size" type ="text" name="q" placeholder="Search Item..." />
+        </form>
+    </div>
+
+    <div id="profile">
+        <div id="profile-image">
+            <a href="">
+                <img id="profile-image2" src="{% static 'images/logo1Copy2-removebg-preview.png' %}">
+            </a>
+        </div>
+        <div id="login">
+            <h1>PROFILE</h1>
+        </div>
+    </div>
+
+</div>
+
+<hr styles="width:100%">

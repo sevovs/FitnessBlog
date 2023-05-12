@@ -1,0 +1,58 @@
+#navbar-container {
+    display: flex;
+    width: 100%;
+}
+
+#navbar-image {
+    flex-basis: 25%;
+}
+
+#logo-image {
+    max-width: 100%;
+    min-width: 150px;
+    border-radius: 50%;
+}
+
+#search-form {
+    flex-basis: 50%;
+    position: relative;
+    min-width: 150px;
+}
+
+.search-bar-form {
+    bottom: 38%;
+    left: 5%;
+    position: absolute;
+    width: 80%;
+}
+
+.search-bar-form input {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#navbar-container {
+    display: flex;
+}
+
+#profile {
+    align-items: center;
+    display: inline-flex;
+    flex-basis: 25%;
+}
+
+#profile-image2 {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#profile-image {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+#login {
+    flex-basis: 50%;
+    max-width: 50%;
+}
